@@ -1,0 +1,70 @@
+.calculator{
+    margin: 3% auto;
+    background:#ccc;
+    width: 240px;
+    height: auto;
+    border-radius: 20px;
+}
+#screen{
+    text-align: right;
+    width: 86%;
+    height: 54px;
+    border-radius: 6px;
+    margin: 20px 0px 0px 12px;
+    background: #858585;
+    border: 1px solid #6b6b6b;
+    font-size: 25px;
+    font: "Trebuchet MS",Arial, Helvetica, sans-serif;
+}
+#screen:focus{
+    /* focuslandığında seçilimi kaldırır */
+    outline: none;
+}
+.buttons{
+    width: 220px;
+    margin: 12px;
+}
+/* buttons sınıfındaki tüm button etiketlerini seçer */
+.buttons button {
+    /* box-shadow:  4px 2px 5px 0px#666; */
+    width: 45px;
+    height: 45px;
+    padding: 0px;
+    margin: 0px 0px 10px 5px;
+    border: 1px solid #333;
+    color: #ccc;
+    border-radius: 6px;
+    font: "Trebucket MS", Arial, sans-serif, Helvetica;
+    line-height: 45px;
+    background: #333;
+}
+buttons button :active{
+    color: #fff;
+    border: 1px solid #333;
+    /* box-shadow:  4px 2px 5px 0px#666; */
+}
+#clear{
+   background: #d02200;
+   border: 1px solid #d02200 ;
+   /* box-shadow:  0px 2px 5px 0px#f63; */
+}
+#clear:active{
+    border: 1px solid #d02200;
+    outline: none;
+}
+#equal{
+   width: 100px;
+   background: #026;
+   border: 1px solid #026;
+}
+#equal:active{
+    border: 1px solid #039;
+}
+#minus,#multiply,#plus,#divide{
+    background: #036;
+    border: 1px solid #036 ;
+
+}
+#minus:active,#multiply:active,#plus:active,#divide:active{
+    border: 1px solid #039;    
+}
