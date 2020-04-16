@@ -24,7 +24,7 @@ var screenn = function(p){
 }
 
 var calculate = function(p){
-    if(memory){
+    if(memory==0){
         result();
     }
     flag = false;
